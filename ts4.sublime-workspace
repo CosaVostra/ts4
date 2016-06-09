@@ -1,0 +1,493 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"times",
+				"timesheetObject"
+			],
+			[
+				"complete",
+				"completeFn"
+			],
+			[
+				"erro",
+				"errorFn"
+			],
+			[
+				"TotalTim",
+				"TotalTime"
+			],
+			[
+				"Total",
+				"TotalTimeDev"
+			],
+			[
+				"TotalTime",
+				"TotalTimeArt"
+			],
+			[
+				"total",
+				"counterTotal"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"im",
+				"important"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/Laurent/ts1/client/main.html",
+		"/Users/Laurent/ts1/server/main.js",
+		"/Users/Laurent/ts1/client/main.js",
+		"/Users/Laurent/ts1/imports/ui/routes.js",
+		"/Users/Laurent/ts1/imports/api/tasks.js",
+		"/Users/Laurent/ts1/imports/api/tasks.test.js",
+		"/Users/Laurent/ts1/imports/api/members.js",
+		"/Users/Laurent/ts1/imports/api/clients.js",
+		"/Users/Laurent/ts1/imports/ui/task.html",
+		"/Users/Laurent/ts1/imports/ui/members.html",
+		"/Users/Laurent/ts1/imports/ui/body.html",
+		"/Users/Laurent/ts1/ts1.sublime-project",
+		"/Users/Laurent/ts1/client/lib/router.js",
+		"/Users/Laurent/ts1/client/register.html",
+		"/Users/Laurent/ts1/imports/startup/accounts-config.js",
+		"/Users/Laurent/ts1/imports/ui/task.js",
+		"/Users/Laurent/ts1/imports/ui/body.js",
+		"/Users/Laurent/ts1/client/main.css",
+		"/Users/Laurent/ts1/imports/ui/register.js",
+		"/Users/Laurent/ts1/imports/ui/register.html",
+		"/Users/Laurent/ts1/lib/router.js",
+		"/Users/Laurent/ts1/client/imports/api/tasks.js",
+		"/Users/Laurent/ts1/client/imports/ui/body.js",
+		"/Users/Laurent/ts1/client/imports/ui/body.html",
+		"/Users/Laurent/Desktop/Temps curl api timesheet/Home.html",
+		"/Users/Laurent/Desktop/Temps curl api timesheet/player.js",
+		"/Users/Laurent/Desktop/Temps curl api timesheet/jquery-csv-master/examples/file-handling.html",
+		"/Users/Laurent/Desktop/Temps curl api timesheet/Test2.html",
+		"/Users/Laurent/Desktop/Temps curl api timesheet/Test4.html",
+		"/Users/Laurent/Desktop/Temps curl api timesheet/Test6.html",
+		"/Users/Laurent/Desktop/Temps curl api timesheet/PapaParse-4.1.2/player/player.js",
+		"/Users/Laurent/Desktop/Temps curl api timesheet/PapaParse-4.1.2/player/player.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Ouiflash/Syllabs/API/api_immo_syllabs_2016-03-02.json",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/StarWars (via Imprudence)/Logs/access-Log/monswcollector.com-access-all.txt",
+		"/Users/Laurent/Desktop/MonSWcollector/reglement.php",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/Cron.php",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/equipe.php",
+		"/Users/Laurent/Desktop/cosavostra equipe/en/equipe.php",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/header.php",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/projets.php",
+		"/Users/Laurent/Desktop/cosavostra equipe/en/equipeSRC-EN.php",
+		"/Users/Laurent/Desktop/cosavostra equipe/en/equipeFR.php",
+		"/Users/Laurent/Desktop/cosavostra equipe/en/equipeEN v1.php",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 41/Tickets et demi finalistes.html",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 41/finalistes.html",
+		"/Users/Laurent/Desktop/cosavostra equipe/fr/equipe.php",
+		"/Users/Laurent/Documents/Apps/freeapps365backup2/freeapps365/vendor/gems/ruby/1.9.1/gems/activesupport-3.0.5/lib/active_support/core_ext/time/calculations.rb",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/contact.php",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/agence.php",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 41/Date.html",
+		"/Users/Laurent/Downloads/Syndic 9MD contrats devis/snapcodes/snapcode.svg",
+		"/Users/Laurent/Desktop/test.html",
+		"/Users/Laurent/Desktop/cosavostra/equipe.php",
+		"/Users/Laurent/Desktop/cosavostra/groovy2016-en.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/GROOVY2016-Final-Neutre.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/GROOVY2016-Final-Laurent.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/GROOVY2016-Final-A PERSONNALISER.html",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 40/Speaker et demi finalistes.html",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/index.html",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/.htaccess",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/groovy2016-en.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/Fosburit/Intégration/Jihen/Fosburit/fonts/Raleway-Bold.svg",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/Fosburit/Intégration/Jihen/Fosburit/fonts/Raleway-Regular.svg",
+		"/Users/Laurent/Dropbox/Dossiers (Selective Sync Conflict)/iTrackMedia/themes/Sabuy-v1-2/Sabuy/fonts/Raleway_250.font.js",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/groovy2016.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/groovy2016_elisa.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/groovy2016_elisa_GOOD.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/groovy2016_new_android_1.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/groovy2016_elisa_6.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/groovy2016_elisa_base3.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/groovy2016_elisa_base2.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/groovy2016_elisa_base.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Admin/Associés Cosa Vostra/Cosavostra_Site/#GROOVY2016/Email Laurent.html",
+		"/Users/Laurent/Desktop/cosavostra/Email1.html",
+		"/Users/Laurent/Desktop/cosavostra/projet_collet.php",
+		"/Users/Laurent/Desktop/cosavostra/projet_dloft.php",
+		"/Users/Laurent/Desktop/cosavostra/projet_dinterior.php",
+		"/Users/Laurent/Desktop/cosavostra/projet_corporatep.php",
+		"/Users/Laurent/Desktop/cosavostra/projet_cointreau.php",
+		"/Users/Laurent/Desktop/cosavostra/projet_coastnvalley.php",
+		"/Users/Laurent/Desktop/cosavostra/projet_citizenside.php",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/index.php",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 39/NL dédiée MS.html",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 39/Date.html",
+		"/Users/Laurent/Dropbox/OUISHOOT/Landing Photographes/TMP LK Landing photographes/landing-photographes.html",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/footer.php",
+		"/Users/Laurent/Dropbox/Acces Free.txt",
+		"/Users/Laurent/Desktop/FileZilla.xml",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/Acer Finance/fonds-detail-tableau-html.html",
+		"/Users/Laurent/Dropbox/Dossiers/SubMate-Biz/Marketing+Partnerships/Mailchimp/labo.txt",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/Fosburit/Intégration/25-06-2015Integ/css/layout.css",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/index.js",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/home.thtml",
+		"/Volumes/NO NAME/url acer finance.txt",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 38/finalistes.html",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/default.thtml",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 38/Date.html",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 38/demi finalistes.html",
+		"/Volumes/NO NAME/acer.txt",
+		"/Users/Laurent/Downloads/get-pip.py",
+		"/Users/Laurent/Dropbox/Dossiers/django/project1/polls/models.py",
+		"/Users/Laurent/Dropbox/Dossiers/django/project1/project1/settings.py",
+		"/Users/Laurent/Dropbox/Dossiers/meteor/simple-todos/simple-todos.css",
+		"/Users/Laurent/Dropbox/Dossiers/meteor/simple-todos/simple-todos.html",
+		"/Users/Laurent/Dropbox/Dossiers/meteor/simple-todos/simple-todos.js",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 37/Date.html",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 37/demi finalistes.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/WorldCrunch/tests/embed.html",
+		"/Users/Laurent/Dropbox/Dossiers/SubMate-Biz/Marketing+Partnerships/Mailchimp/gawker_gmail.lk.txt",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/FranceÔ/Designs v3 - Marie Delattres/devs/outremersin_icones-all.svg",
+		"/private/var/folders/lx/6hnx724j3qn46n8_s9nh6xvh0000gn/T/fz3temp-1/post-menu.php",
+		"/Users/Laurent/Downloads/Adobe Photoshop Lightroom 5.5 Final Mac OS X [ChingLiu]/ChingLiu.Install.Notes.txt",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/BooksFeed/Books InDesign/010-013_Books59-BESTSELLERS SB.indd",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/outremers/Email template/Template email Worldcrunch PBP ACCOUNT CREATION.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/outremers/Email template/Template email Worldcrunch PBP ACCOUNT CONFIRMATION.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/outremers/Email template/Template email Worldcrunch PBP.html",
+		"/Users/Laurent/Dropbox/dossiers/cosavostra-agence/Clients/outremers/Email template/Template email Worldcrunch PBP EMPTY.html",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 36/Date.html",
+		"/Users/Laurent/Dropbox/Dossiers/StartInParis/SiP 36/Finalistes.html",
+		"/Users/Laurent/Dropbox/Perso/_Perso Admin/Contacts/Linkedin Dec 2014.txt",
+		"/Users/Laurent/Downloads/Xee.v3.0.6.MacOSX.Incl.Keyfilemaker-CORE[rarbg]/core.nfo",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/!nstant/Instant Repo/cosavostra.github.io/index.html",
+		"/Users/Laurent/Dropbox/Dossiers/CosaVostra-Agence/Clients/!nstant/Instant Repo/index.html",
+		"/Users/Laurent/Downloads/Adobe Photoshop CC 2014 (Mac)+Camera Raw 8.5 [ChingLiu]/ChingLiu.Install.Notes.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tasks",
+			"subs",
+			"body",
+			"css",
+			"checke",
+			"task",
+			"-->",
+			"list",
+			"done",
+			"alert",
+			"argument",
+			"completeFN",
+			"errorFn",
+			"stepFn",
+			"getLineEnding",
+			"insert",
+			"perfo",
+			"performance",
+			"perform",
+			"buildc",
+			"JSON",
+			"string",
+			"strin",
+			"TotalTime",
+			"UniqueClients",
+			"UniqueClient",
+			"Client",
+			"//          ",
+			"alert",
+			"counterM",
+			"counterH",
+			"score",
+			"name",
+			"Facebook, Tw",
+			"ê",
+			"’",
+			"»",
+			"«",
+			"à",
+			"è",
+			"é",
+			"section",
+			"sec",
+			"        \n",
+			"heel",
+			"heek",
+			"footb",
+			"cost",
+			"oriente",
+			"div-kev",
+			"php",
+			";\">",
+			"39",
+			"valentine",
+			"count",
+			"shutter",
+			"projet",
+			"ref=francois",
+			"href=\"http://www.cosavostra.com/groovy2016.html",
+			"justi",
+			"css",
+			"jus",
+			"justif",
+			"ns33",
+			",fezkez,nfnezfeznfez",
+			"CosaVostra",
+			"laurent",
+			"contact",
+			"ref=laurent",
+			"laurent",
+			"&ref=laurent",
+			"?ref=laurent",
+			"pointer",
+			"&ref=laurent",
+			"?ref=laurent",
+			"made",
+			"made ",
+			" style=\"margin: 10px;\" ",
+			"gif\" alt=\"\">",
+			" style=\"margin: 0px;\" alt=\"\">",
+			"margin: 20px;",
+			"%",
+			"border-bottom: 1px solid;padding: 1px;",
+			"line-",
+			" width=\"80\" height=\"80\"",
+			"width: 80px;height: 80px;",
+			"line-hei",
+			"text",
+			"txt",
+			"font-size",
+			"width_mobile",
+			"<center",
+			"</center",
+			"<center",
+			".gif",
+			"font-size",
+			"size",
+			"15px",
+			"500px",
+			"\"\"",
+			"inline",
+			"150px",
+			";'>",
+			"png",
+			"jpeg",
+			"jpg",
+			"\n        <div class=\"category-thumb\">\n",
+			"http://www.glutencorner.com/categorie-produit/",
+			"</a> <small class=\"count\">",
+			"</small><div class=\"clear\"></div></li>",
+			"http:",
+			"\\*",
+			"<li ><a href=\"",
+			"indice",
+			"fonds",
+			"Laurent a accompagné pendant 7 ans des grands groupes dans leurs transformations digitales, chez Lafarge (Paris) puis Air France (New York), Il a ensuite fondé 3 startups dans le domaine du mobile et géolocalisé, pour 2 exits. En 2010, il crée Start In Paris, la plus grande conférence startup mensuelle en France, et intervient régulièrement à HEC sur l'entrepreneuriat digital.",
+			"laurent",
+			"	",
+			"	 ",
+			"vous",
+			"40",
+			"pbp@",
+			"title",
+			"titke",
+			"title",
+			"http://www.worldcrunch.com/\"",
+			"*|",
+			"decem"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&ecirc;",
+			"&rsquo;",
+			"&raquo;",
+			"&laquo;",
+			"&agrave;",
+			"&egrave;",
+			"&eacute;",
+			"ref=matthieu",
+			"href=\"http://www.cosavostra.com/groovy2016-en.html",
+			"Toute l'équipe de <strong>CosaVostra</strong> vous souhaite une #GROOVY 2016 ! <br>Qu'elle soit <strong>Joyeuse, Prospère, Animée, Libérée, Délivrée, avec un moral d'acier et une santé de fer !</strong>",
+			"ref=XXXX",
+			"&ref=XXXX",
+			"?ref=XXXX",
+			"",
+			" ",
+			" style=\"margin: 0px;\" ",
+			"gif\" style=\"margin: 10px;\" alt=\"\">",
+			" style=\"margin: 10px;\" alt=\"\">",
+			"margin: 0px;",
+			"",
+			"-80.gif",
+			"\"",
+			"",
+			"\\nhttp://www.glutencorner.com/categorie-produit/",
+			"",
+			"\\nhttp:",
+			"",
+			" ",
+			"info@",
+			"http://www.worldcrunch.com/pbp\"",
+			"http://www.startinparis.com/2015/01/start-in-paris/start-in-paris-36-26-janvier-au-players/",
+			"'",
+			"/p>",
+			"com\">www",
+			"/p>",
+			"/a>",
+			"<p>",
+			"h3>",
+			"h2>",
+			"br />",
+			"strong>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ts4.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
