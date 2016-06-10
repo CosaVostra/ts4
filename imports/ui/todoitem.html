@@ -1,6 +1,8 @@
 <template name="todoItem">
   <li class="{{checked}}">
 	<input type="checkbox" {{checked}}>
+	<!-- ADDED LAURENT - DISPLAY LIST NAME -->
+    <!-- List : {{listName}} -->
 	<input type="text" value="{{name}}" name="todoItem">
 	[<a href="#" class="delete-todo">Delete</a>]
   </li>

@@ -23,7 +23,8 @@ if(Meteor.isServer){
 
 Template.todos.helpers({
     'todo': function(){
-        return Todos.find({}, { sort: { createdAt : -1 }});
+        var currentList = this._id;
+        return Todos.find({ listId: currentList }, {sort: {createdAt: -1}})
     }
 });
 
@@ -66,12 +67,12 @@ Template.todoItem.events({
 		var isCompleted = this.completed;
 	    if(isCompleted){
 	        Todos.update({ _id: documentId }, {$set: { completed: false }});
-	        console.log("Task marked as incomplete.");
+	        // console.log("Task marked as incomplete.");
 	    } else {
 	        Todos.update({ _id: documentId }, {$set: { completed: true }});
-	        console.log("Task marked as complete.");
+	        // console.log("Task marked as complete.");
 	    }
-	}
+	},
 });
 
 Template.todoItem.helpers({
@@ -82,26 +83,39 @@ Template.todoItem.helpers({
         } else {
             return "";
         }
-    }
+    },
+	/* ADDED LAURENT - DISPLAY LIST NAME */
+   	/* 
+    'listName': function(){    	
+    	var listName = Lists.findOne({_id: this.listId});
+    	console.log(listName);
+    	return listName.name;
+    } 
+    */
 
 });
 
 Template.todosCount.helpers({
 	'totalTodos': function(){
-		return Todos.find().count();
+        var currentList = this._id;
+        return Todos.find({ listId: currentList }).count();
 	},
 	'completedTodos': function(){
-		return Todos.find({ completed: true }).count();
+        var currentList = this._id;
+        return Todos.find({ listId: currentList, completed: true }).count();
 	}
 });
+
 
 Template.addList.events({
     'submit form': function(event){
       event.preventDefault();
       var listName = $('[name=listName]').val();
-      Lists.insert({
+        Lists.insert({
           name: listName
-      });
+        }, function(error,results){
+            Router.go('listPage', { _id: results });
+        });
       $('[name=listName]').val('');
     }
 });
@@ -112,6 +126,20 @@ Template.lists.helpers({
     }
 });
 
+Template.listPage.events({
+	'click .delete-list': function(event){
+	    event.preventDefault();
+	    var documentId = this._id;
+	    var countTasks = Todos.find({ listId: documentId }).count();
+	    console.log(countTasks);
+	    var confirm = window.confirm("Delete this list?");
+	    if (confirm && countTasks == 0) {
+	    	Lists.remove({ _id: documentId });
+	    } else {
+	    	alert("Couldn't remove this list - delete its tasks first.")
+	    }
+	},
+});
 
 
 
