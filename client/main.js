@@ -11,6 +11,8 @@ import '../imports/startup/index.js';
 
 Todos = new Mongo.Collection('todos');
 
+Lists = new Meteor.Collection('lists');
+
 if(Meteor.isClient){
     // client code goes here
 }
@@ -29,13 +31,16 @@ Template.addTodo.events({
 	'submit form': function(event){
 	    event.preventDefault();
 	    var todoName = $('[name="todoName"]').val();
+	    var currentList = this._id;
 	    Todos.insert({
 	        name: todoName,
 	        completed: false,
-	        createdAt: new Date()
+	        createdAt: new Date(),
+	        listId: currentList
 	    });
 	    $('[name="todoName"]').val('');
 	}
+
 });
 
 Template.todoItem.events({
@@ -89,6 +94,29 @@ Template.todosCount.helpers({
 		return Todos.find({ completed: true }).count();
 	}
 });
+
+Template.addList.events({
+    'submit form': function(event){
+      event.preventDefault();
+      var listName = $('[name=listName]').val();
+      Lists.insert({
+          name: listName
+      });
+      $('[name=listName]').val('');
+    }
+});
+
+Template.lists.helpers({
+    'list': function(){
+        return Lists.find({}, {sort: {name: 1}});
+    }
+});
+
+
+
+
+
+
 
 
 

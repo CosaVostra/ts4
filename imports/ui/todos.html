@@ -1,9 +1,10 @@
 <template name="todos">
-  {{> addTodo}}
-  <ul>
-    {{#each todo}}
-      <li>{{> todoItem}}</li>
-    {{/each}}
-  </ul>
-  {{> todosCount}}
+	<p>{{_id}}</p>
+	{{> addTodo}}
+	<ul>
+    	{{#each todo}}
+			<li>{{> todoItem}}</li>
+    	{{/each}}
+	</ul>
+	{{> todosCount}}
 </template>
