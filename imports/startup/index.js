@@ -3,11 +3,15 @@ import { Meteor } from 'meteor/meteor';
 import './routes.js';
 
 /* GENERAL */ 
-import '../ui/header.html';
-import '../ui/register.html';
-import '../ui/login.html';
-import '../ui/home.html';
-import '../ui/main.html';
+import '../ui/general/register.html';
+import '../ui/general/login.html';
+import '../ui/general/general.js';
+
+/* LAYOUT */
+import '../ui/layout/header.html';
+import '../ui/layout/home.html';
+import '../ui/layout/main.html';
+import '../ui/layout/layout.js';
 
 /* TODOS */ 
 import '../ui/addtodo.html';

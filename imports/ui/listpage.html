@@ -1,4 +1,18 @@
+<!-- CHILD OF : LISTS -->
+
 <template name="listPage">
-    <h2>Tasks: {{name}} <em>(<a href="#" class="delete-list">delete</a>)</em></h2>
-    {{> todos}}
+	{{#if currentUser}}
+        {{> lists}}
+    {{else}}
+    	Please login or register to add lists.
+    {{/if}}
+    {{#if noList }}
+    	This list doesn't exist, sorry.
+    {{/if}}
+	{{#if name }}
+	    <h2>Tasks: {{name}} <em>(<a href="#" class="delete-list">delete</a>)</em></h2>
+	    {{> todos}}
+	{{/if}}
 </template>
+
+

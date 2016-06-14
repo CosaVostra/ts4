@@ -8,13 +8,13 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import '../imports/startup/index.js';
 
-
 Todos = new Mongo.Collection('todos');
 
-Lists = new Meteor.Collection('lists');
+Lists = new Mongo.Collection('lists');
 
 if(Meteor.isClient){
     // client code goes here
+    // Meteor.subscribe('lists');
 }
 
 if(Meteor.isServer){
@@ -24,7 +24,8 @@ if(Meteor.isServer){
 Template.todos.helpers({
     'todo': function(){
         var currentList = this._id;
-        return Todos.find({ listId: currentList }, {sort: {createdAt: -1}})
+        var currentUser = Meteor.userId();
+        return Todos.find({ listId: currentList, createdBy: currentUser }, {sort: {createdAt: -1}})
     }
 });
 
@@ -33,15 +34,16 @@ Template.addTodo.events({
 	    event.preventDefault();
 	    var todoName = $('[name="todoName"]').val();
 	    var currentList = this._id;
+	    var currentUser = Meteor.userId();
 	    Todos.insert({
 	        name: todoName,
 	        completed: false,
 	        createdAt: new Date(),
+	        createdBy: currentUser,
 	        listId: currentList
 	    });
 	    $('[name="todoName"]').val('');
-	}
-
+	},
 });
 
 Template.todoItem.events({
@@ -111,20 +113,29 @@ Template.addList.events({
     'submit form': function(event){
       event.preventDefault();
       var listName = $('[name=listName]').val();
-        Lists.insert({
-          name: listName
-        }, function(error,results){
-            Router.go('listPage', { _id: results });
-        });
+      var currentUser = Meteor.userId();
+	  Lists.insert({
+	      name: listName,
+	      createdBy: currentUser
+      }, function(error,results){
+          Router.go('listPage', { _id: results });
+      });
       $('[name=listName]').val('');
     }
 });
 
 Template.lists.helpers({
     'list': function(){
-        return Lists.find({}, {sort: {name: 1}});
-    }
+    	var currentUser = Meteor.userId();
+        return Lists.find({ createdBy: currentUser }, {sort: {name: 1}});
+    },/*
+    'hasLists': function(){
+    	if(Lists.find().count() > 0) {
+    		return true
+    	}
+    }*/
 });
+
 
 Template.listPage.events({
 	'click .delete-list': function(event){

@@ -1,8 +1,12 @@
+<!-- CHILD OF : LISTPAGE -->
+
 <template name="lists">
     <h2>Lists</h2>
-    {{> addList}}
-    Lists : 
-	    {{#each list}}
-	        <a href="{{pathFor route='listPage'}}">{{name}}</a>
-	    {{/each}}
+	{{> addList}}
+	<!-- {{#if hasLists}} -->
+	    Lists : 
+		    {{#each list}}
+		        <a href="{{pathFor route='listPage'}}">{{name}}</a>
+		    {{/each}}
+	<!-- {{/if}} -->
 </template>

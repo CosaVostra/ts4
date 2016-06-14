@@ -1,0 +1,19 @@
+<!-- CHILD OF : MAIN -->
+
+<template name="header">
+	<a href="{{pathFor route='home'}}">Home</a>
+	|
+	<a href="{{pathFor route='list'}}">Lists</a>
+	|
+    {{#if currentUser }}
+		<a href="#" class="logout">Logout</a> 
+		<em>(logged in as <a href="mailto:{{ currentUser.emails.[0].address }}">{{ currentUser.emails.[0].address }}</a> / {{currentUser._id}})</em>
+	{{else}}
+		<a href="{{pathFor route='register'}}">Register</a>
+		|
+		<a href="{{pathFor route='login'}}">Login</a>
+    {{/if}}
+	
+	<br />
+	<br />	
+</template>
