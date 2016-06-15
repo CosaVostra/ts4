@@ -15,16 +15,16 @@ import '../ui/layout/main.html';
 import '../ui/layout/layout.js';
 
 /* TODOS */ 
-import '../ui/addtodo.html';
-import '../ui/todos.html';
-import '../ui/todoitem.html';
-import '../ui/todoscount.html';
+// import '../ui/addtodo.html';
+// import '../ui/todos.html';
+// import '../ui/todoitem.html';
+// import '../ui/todoscount.html';
 import '../ui/listtodos.html';
 
 /* LISTS */ 
-import '../ui/addlist.html';
-import '../ui/lists.html';
-import '../ui/listpage.html';
+// import '../ui/addlist.html';
+// import '../ui/lists.html';
+import '../ui/todos/listpage.html';
 
 /* CLIENTS AND PROJECTS */ 
 import '../ui/clients/addclients.html';
