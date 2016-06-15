@@ -13,8 +13,11 @@ Todos = new Mongo.Collection('todos');
 Lists = new Mongo.Collection('lists');
 
 if(Meteor.isClient){
-    // client code goes here
-    // Meteor.subscribe('lists');
+
+	Template.lists.onCreated(function () {
+	    this.subscribe('lists');
+	});
+
 }
 
 if(Meteor.isServer){

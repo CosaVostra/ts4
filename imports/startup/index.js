@@ -5,6 +5,7 @@ import './routes.js';
 /* GENERAL */ 
 import '../ui/general/register.html';
 import '../ui/general/login.html';
+import '../ui/general/loading.html';
 import '../ui/general/general.js';
 
 /* LAYOUT */
