@@ -1,4 +1,3 @@
-import { Meteor } from 'meteor/meteor';
 
 import './routes.js';
 
@@ -14,17 +13,9 @@ import '../ui/layout/home.html';
 import '../ui/layout/main.html';
 import '../ui/layout/layout.js';
 
-/* TODOS */ 
-// import '../ui/addtodo.html';
-// import '../ui/todos.html';
-// import '../ui/todoitem.html';
-// import '../ui/todoscount.html';
-import '../ui/listtodos.html';
-
-/* LISTS */ 
-// import '../ui/addlist.html';
-// import '../ui/lists.html';
+/* TODOS AND LISTS */ 
 import '../ui/todos/listpage.html';
+import '../ui/todos/todos.js';
 
 /* CLIENTS AND PROJECTS */ 
 import '../ui/clients/addclients.html';
