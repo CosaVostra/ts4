@@ -22,3 +22,8 @@ import '../ui/clients/addclients.html';
 import '../ui/clients/addprojects.html';
 import '../ui/clients/listprojects.html';
 import '../ui/clients/listclients.html';
+
+/* USERS */ 
+import '../ui/users/users.html';
+import '../ui/users/users.js';
+

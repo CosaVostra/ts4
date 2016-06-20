@@ -59,6 +59,13 @@ Router.route('/list/:_id', {
 
 
 
+Router.route('/users', {
+    name: 'users',
+    template: 'users',
+    waitOn: function(){
+        return Meteor.subscribe('users'); 
+    }
+});
 
 
 

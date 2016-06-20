@@ -1,0 +1,13 @@
+
+
+<template name="users">
+	Users : {{>listUsers}}
+</template>
+
+
+<template name="listUsers">
+	Pierre, Paul, Jacques
+	{{#each user}}
+		{{user.emails}}
+	{{/each}}
+</template>

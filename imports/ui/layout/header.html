@@ -5,6 +5,8 @@
 	|
 	<a href="{{pathFor route='list'}}">Lists</a>
 	|
+	<a href="{{pathFor route='users'}}">Users</a>
+	|
     {{#if currentUser }}
 		<a href="#" class="logout">Logout</a> 
 		<em>(logged in as <a href="mailto:{{ currentUser.emails.[0].address }}">{{ currentUser.emails.[0].address }}</a> / {{currentUser._id}})</em>

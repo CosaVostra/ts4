@@ -20,9 +20,6 @@ if(Meteor.isClient){
 
 }
 
-if(Meteor.isServer){
-    // server code goes here
-}
 
 /*
 
