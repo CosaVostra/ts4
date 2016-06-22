@@ -60,15 +60,6 @@ Template.todoItem.helpers({
             return "";
         }
     },
-	/* ADDED LAURENT - DISPLAY LIST NAME */
-   	/* 
-    'listName': function(){    	
-    	var listName = Lists.findOne({_id: this.listId});
-    	console.log(listName);
-    	return listName.name;
-    } 
-    */
-
 });
 
 Template.todosCount.helpers({

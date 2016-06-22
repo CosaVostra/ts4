@@ -1,0 +1,63 @@
+
+<template name="listClients">
+	{{#if currentUser}}
+        {{> clients}}
+    {{else}}
+    	Please login or register to add clients.
+    {{/if}}
+	{{#if name }}
+	    <h2>{{name}}'s projects :</h2>
+	    {{> clientProjects}}
+	{{/if}}
+
+</template>
+
+
+<template name="clients">
+    <h2>Clients</h2>
+	{{> addClient}}
+	    Clients : 
+		    {{#if Template.subscriptionsReady}}
+			    {{#each client}}
+					<a href="{{pathFor route='clientProjects'}}">{{name}}</a>
+			    {{/each}}
+	        {{else}}
+	            <li>Loading...</li>
+	        {{/if}}
+</template>
+
+
+<template name="addClient">
+    <form>Add a client:
+        <input type="text" placeholder="Client name here..." name="clientName">
+	</form>
+</template>
+
+
+<template name="clientProjects">
+	{{> addProject}}
+	<ul>
+    	{{#each project}}
+			<li>{{> projectItem}}</li>
+    	{{/each}}
+	</ul>
+</template>
+
+
+<template name="addProject">
+    <form>Add a project:
+        <input type="text" placeholder="Project name here..." name="projectName" value="">
+		Active: <input type="checkbox" {{checked}}>
+    </form>
+</template>
+
+<template name="projectItem">
+	{{name}} (Active : {{checked}})
+	
+
+	<label class="switch">
+		<input type="checkbox" {{checked}}>
+		<div class="slider round"></div>
+	</label>
+
+</template>

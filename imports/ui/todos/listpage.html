@@ -20,7 +20,6 @@
 <template name="lists">
     <h2>Lists</h2>
 	{{> addList}}
-	<!-- {{#if hasLists}} -->
 	    Lists : 
 		    {{#if Template.subscriptionsReady}}
 			    {{#each list}}
@@ -29,7 +28,6 @@
 	        {{else}}
 	            <li>Loading...</li>
 	        {{/if}}
-	<!-- {{/if}} -->
 </template>
 
 <!-- CHILD OF : LISTS -->
@@ -65,8 +63,6 @@
 <template name="todoItem">
   <li class="{{checked}}">
 	<input type="checkbox" {{checked}}>
-	<!-- ADDED LAURENT - DISPLAY LIST NAME -->
-    <!-- List : {{listName}} -->
 	<input type="text" value="{{name}}" name="todoItem">
 	[<a href="#" class="delete-todo">Delete</a>]
   </li>

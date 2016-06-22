@@ -18,10 +18,8 @@ import '../ui/todos/listpage.html';
 import '../ui/todos/todos.js';
 
 /* CLIENTS AND PROJECTS */ 
-import '../ui/clients/addclients.html';
-import '../ui/clients/addprojects.html';
-import '../ui/clients/listprojects.html';
-import '../ui/clients/listclients.html';
+import '../ui/clients/clients.html';
+import '../ui/clients/clients.js';
 
 /* USERS */ 
 import '../ui/users/users.html';

@@ -12,11 +12,21 @@ Todos = new Mongo.Collection('todos');
 
 Lists = new Mongo.Collection('lists');
 
+Clients = new Mongo.Collection('clients');
+
+Projects = new Mongo.Collection('projects');
+
 if(Meteor.isClient){
 
 	Template.lists.onCreated(function () {
 	    this.subscribe('lists');
 	});
+
+
+	Template.clientProjects.onCreated(function () {
+	    this.subscribe('projects');
+	});
+
 
 }
 
